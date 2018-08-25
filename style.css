@@ -1,0 +1,44 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+a {
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 45%;
+    margin-top: 10%;
+}
+
+.text-container {
+    padding: 10px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+
+h2 {
+    width: 300px;
+    display: inline-block;
+}
+
+h4 {
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+h4:hover, h4:focus{
+    background-color: "#E4F2F5";    
+}
